@@ -6,6 +6,11 @@ This project is composed of two phases-
 
 There are two datasets - ip.txt(User ratings dataset) and impfields.txt(Movie dataset)
 
+Querying of the dataset is done for 3 questions-
+Q1) Number of movies by a director
+Q2) Number of action movies in a year
+Q3) Avg rating of movies by a director
+
 The friend recommendation consists of two mappers and two reducers.
 Mapper1 converts the dataset into key, value pairs of user_id, movie_id
 Reducer1 combines all the movies watched by a user
