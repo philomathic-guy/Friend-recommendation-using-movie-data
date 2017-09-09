@@ -11,7 +11,7 @@ Q1) Number of movies by a director
 Q2) Number of action movies in a year
 Q3) Avg rating of movies by a director
 
-The friend recommendation consists of two mappers and two reducers.
+The friend recommendation system is built using the Hadoop framework. It consists of two mappers and two reducers.
 Mapper1 converts the dataset into key, value pairs of user_id, movie_id
 Reducer1 combines all the movies watched by a user
 Mapper2 will just pass the output of Reducer1 in the form of user_id, (movie_id1, movie_id2,...)
