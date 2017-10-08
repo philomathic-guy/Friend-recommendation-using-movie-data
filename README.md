@@ -5,6 +5,7 @@ This project is composed of two phases-
 2) Friend recommendation based on user input and the dataset of users and their choices.
 
 There are two datasets - ip.txt(User ratings dataset) and impfields.txt(Movie dataset)
+(ip.txt is of the form -> user_id, movie_id, rating, timestamp)
 
 Querying of the dataset is done for 3 questions-
 Q1) Number of movies by a director
